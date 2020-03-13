@@ -37,7 +37,7 @@ example_usage:
       await action.perform();
   javascript_wdio:
     |
-      driver.touchPerform([
+      driver.touchAction([
         { action: 'press', options: { x: 100, y: 250 }},
         { action: 'moveTo', options: { x: 300, y: 100 }},
         { action: 'release' }
@@ -58,7 +58,8 @@ example_usage:
 client_docs:
   java: "https://appium.github.io/java-client/io/appium/java_client/TouchAction.html"
   python: "https://github.com/appium/python-client/blob/master/appium/webdriver/common/touch_action.py"
-  javascript_wdio: "https://webdriver.io/docs/api/mjsonwp.html#touchperform"
+  javascript_wdio: "  https://webdriver.io/docs/api/browser/touchAction.html#touchAction"
+
   javascript_wd: "https://github.com/admc/wd/blob/master/lib/commands.js#L1546"
   ruby: "https://www.rubydoc.info/github/appium/ruby_lib/Appium/TouchAction"
   ruby_core: "https://www.rubydoc.info/github/appium/ruby_lib/Appium/TouchAction"
